@@ -3,6 +3,12 @@ class OrdersController < ApplicationController
   def show
     @order = Order.find(params[:id])
   end
+  
+  def line_items
+  @line_items ||= Product.where(id: cart.keys).map {|product| { product:product, quantity: cart[product.id.to_s] } }
+  puts @line_items.inspect
+
+  end
 
   def create
     charge = perform_stripe_charge
