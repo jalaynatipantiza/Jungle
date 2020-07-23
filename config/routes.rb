@@ -20,6 +20,14 @@ Rails.application.routes.draw do
 
   get '/about' => 'about#show'
 
+  #sessions
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  #users
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
   
  
   
