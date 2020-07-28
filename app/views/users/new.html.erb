@@ -4,7 +4,9 @@
   <form style="display: flex; flex-direction: column; width: 25em;"
   <%= form_for :user, url: '/users' do |f| %>
 
-  Name: <%= f.text_field :name %>
+  First Name: <%= f.text_field :firstName %>
+  
+  Last Name: <%= f.text_field :lastName %>
 
   Email: <%= f.text_field :email %>
 
