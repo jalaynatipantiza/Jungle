@@ -18,6 +18,11 @@ Implemented new features:
 **Bug: Checking Out with Empty Cart**
 - When the cart is empty, display a friendly message about how it is empty and link to the home page.
 
+!["Category List"](https://github.com/jalaynatipantiza/Jungle/blob/master/docs/category_list.png?raw=true)
+!["Friendly message"](https://github.com/jalaynatipantiza/Jungle/blob/master/docs/friendly_message.png?raw=true)
+!["Creating New Category"](https://github.com/jalaynatipantiza/Jungle/blob/master/docs/new_category.png?raw=true)
+!["Sign Up Form"](https://github.com/jalaynatipantiza/Jungle/blob/master/docs/sign_up_form.png?raw=true)
+!["Sold Out Badge"](https://github.com/jalaynatipantiza/Jungle/blob/master/docs/sold_out_badge%20.png?raw=true)
 
 
 ## Setup
