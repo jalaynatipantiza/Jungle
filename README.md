@@ -7,8 +7,8 @@ Implemented new features:
 - When a product has 0 quantity, a sold out badge displays on the product list page
 
 **Feature:Admin Categories**
-- Admin users can lsit and create new categories 
-- Admin users can add new products to new categories
+- Admin users can list and create new categories 
+- Admin users can add new products to newly create category
 
 **Feature: User Authentication**
 - Visitors are able to access registration page, can sign up/log in for user account with email, first name and last name
