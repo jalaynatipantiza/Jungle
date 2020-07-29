@@ -3,19 +3,19 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. 
 Implemented new features:
 
-######Feature: Sold out badge 
+**Feature: Sold out badge**
 - When a product has 0 quantity, a sold out badge displays on the product list page
 
-######Feature:Admin Categories
+**Feature:Admin Categories**
 - Admin users can lsit and create new categories 
 - Admin users can add new products to new categories
 
-######Feature: User Authentication
+**Feature: User Authentication**
 - Visitors are able to access registration page, can sign up/log in for user account with email, first name and last name
 - User can logout from any page and cannot sign up with an existing e-mail address (uniqueness validation)
 - Passwords are not stored as plain text in the database. Instead, has_secure_password is used in the User model, leveraging the bcrypt gem.
 
-######Bug: Checking Out with Empty Cart
+**Bug: Checking Out with Empty Cart**
 - When the cart is empty, display a friendly message about how it is empty and link to the home page.
 
 
