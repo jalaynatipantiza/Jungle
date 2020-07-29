@@ -9,6 +9,10 @@ class User < ActiveRecord::Base
 
   def self.authenticate_with_credentials (email, password)
     user = self.find_by_email(email.strip.downcase)
-    user.authenticate(password)
+    if user && user.authenticate(password)
+      user
+    else
+      nil
+    end
   end
 end
